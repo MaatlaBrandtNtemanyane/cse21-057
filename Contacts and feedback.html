@@ -1,0 +1,157 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Contacts and Feedback</title>
+<style>
+	header {
+		background-color: black;
+		height:70px
+		font family: Helvetica Bold;
+		font-size: 35px;
+		color: white;
+		border: 2px outset black;
+		text-align: center
+	}
+	aside { 
+		color: white;
+	}
+	body {
+		background-image: url("Background-Image.jpg");
+		background-color: #cccccc;
+	}
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+
+	input[type=submit] {
+		background-color: #252e2b;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		cursor: pointer;
+	}
+	
+	input[type=submit]:hover {
+		background-color: #101317;
+	}
+
+	.container {
+		border-radius: 5px;
+		background-color: #101317;
+		padding: 10px;
+	}
+
+	.column {
+		float: left;
+		width: 50%;
+		margin-top: 6px;
+		padding: 20px;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	@media screen and (max-width: 600px) {
+		.column, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+	}
+	
+	footer {
+		color: white;
+	}
+
+	img {
+		float: left;
+		border: 1px dotted black;
+		margin: 2px 2px 15px 20px;
+	}
+
+	h2 {
+		color: white;
+	}
+	p {
+		color: white;
+	}
+	form label {
+		color: white;
+	}
+</style>
+</head>
+<body>
+
+<header>
+CONTACT & FEEDBACK
+</header>
+
+<h2>Call or send us a WhatsApp text!</h2>
+<p>
+Whatsapp: +267 75997555 
+</p>
+
+<hr>
+<br>
+
+<aside>
+<marquee direction="right"><b><i>We are people because of other people.</b></i></marquee>
+</aside>
+
+<br>
+<hr>
+
+<div class="container">
+<div style="text-align:center">
+<h2>Reach Out</h2>
+<p>"We all need people who will give us feedback. That's how we improve"</p>
+</div>
+<div class="row">
+<div class="column">
+<img src="for contacts 2.jpg" style="width:100%">
+</div>
+<div class="column">
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder=" ">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder=" ">
+<label for="fname">Contact Details</label>
+<input type="text" id="fname" name="Mobile Number" placeholder=" ">
+<label for="country">Country</label>
+<select id="country" name="country">
+<option value="Botswana">Botswana</option>
+<option value="South Africa">South Africa</option>
+<option value="Other">Other</option>
+</select>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Insert your comments on our services here.." style="height:170px"></textarea>
+<input type="Submit" value="Submit">
+</form>
+</div>
+</div>
+</div>
+
+</body>
+<hr>
+<br>
+<br>
+<footer>
+Copyright 2022. New World Theatre
+</footer>
+</html>
